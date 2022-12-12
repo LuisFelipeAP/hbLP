@@ -28,11 +28,8 @@
             }
 
             p {
-                font-family: 'Gt america standard', sans-serif;
                 color: rgba(34, 37, 45, 0.7);
                 font-size: 1.125rem;
-                line-height: 1.65625rem;
-                font-weight: 400;
                 margin: 0 0 0.625rem;
             }
 
@@ -45,13 +42,9 @@
                     margin-right: 0.75rem;
                     color: white;
                     background-color: rgba(6, 39, 249, 0.9);
-                    font-size: 1.25rem;
-                    font-weight: 400;
-                    font-family: 'Gt america standard', sans-serif;
                     border-radius: 4px;
                     text-decoration: none;
                     white-space: nowrap;
-                    line-height: 1.78125rem;
                     transition: 350ms;
 
                     &:hover {
@@ -66,13 +59,9 @@
                     border-radius: 4px;
                     box-shadow: 0 2px 14px 0 rgb(34 37 45 / 25%);
                     transition: 350ms;
-                    font-family: 'Gt america standard', sans-serif;
                     color: rgba(34, 37, 45, 0.9);
-                    font-size: 1.25rem;
-                    font-weight: 400;
                     text-decoration: none;
                     white-space: nowrap;
-                    line-height: 1.78125rem;
 
                     &:hover {
                         transform: scale(.93);
@@ -85,11 +74,7 @@
                 max-width: 100%;
                 display: flex;
                 align-items: center;
-                font-family: 'Gt america standard', sans-serif;
                 color: #22252d;
-                font-size: 1.125rem;
-                line-height: 1.71875rem;
-                font-weight: 400;
                 text-decoration: none;
                 white-space: nowrap;
 
@@ -106,10 +91,6 @@
 
                 .googleReview {
                     color: #22252d;
-                    font-family: 'Gt america standard', sans-serif;
-                    font-size: 1.125rem;
-                    line-height: 1.71875rem;
-                    font-weight: 400;
                     white-space: nowrap;
                 }
 
@@ -193,7 +174,8 @@
                 border-radius: 0;
 
                 img {
-                    max-width: 100%;
+                    width: 100%;
+                    max-width: none;
                 }
             }
         }

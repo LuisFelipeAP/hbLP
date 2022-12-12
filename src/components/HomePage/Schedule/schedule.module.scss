@@ -1,6 +1,11 @@
 .sectionContainer {
 	padding: 6.25rem 0;
 
+	@media screen and (max-width: 767px) {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
 	.innerContainer {
 		width: 100%;
 		max-width: 75rem;
@@ -8,6 +13,11 @@
 		margin-left: auto;
 		padding-right: 0.9375rem;
 		padding-left: 0.9375rem;
+
+		@media screen and (max-width: 767px) {
+			padding-right: 20px;
+			padding-left: 20px;
+		}
 
 		.headline {
 			max-width: 40rem;
@@ -22,6 +32,11 @@
 				font-size: 2.625rem;
 				line-height: 3.3125rem;
 				font-weight: 700;
+
+				@media screen and (max-width: 479px) {
+					font-size: 32px;
+					line-height: 1.25;
+				}
 			}
 
 			p {
@@ -29,9 +44,6 @@
 				max-width: 26.25rem;
 				margin: 0 auto 0.625rem;
 				color: rgba(0, 0, 0, 0.6);
-				font-weight: 400;
-				line-height: 1.78125rem;
-				font-size: 1.25rem;
 			}
 		}
 
@@ -40,7 +52,11 @@
 			margin-top: 50px;
 			margin-right: auto;
 			margin-left: auto;
-			padding-left: 50px;			
+			padding-left: 50px;
+
+			@media screen and (max-width: 767px) {
+				padding-left: 0;
+			}
 
 			.infoCard {
 				display: flex;
@@ -51,19 +67,33 @@
 					transform: scale(.93);
 				}
 
+				@media screen and (max-width: 767px) {
+					flex-direction: column;
+					align-items: center;
+				}
+
 				img {
 					display: flex;
 					padding-right: 65px;
 					max-width: 100%;
 					vertical-align: middle;
+
+					@media screen and (max-width: 767px) {
+						margin-bottom: 26px;
+						padding-right: 0;
+					}
 				}
 
 				.cardContent {
 
+					@media screen and (max-width: 767px) {
+						text-align: center;
+					}
+
 					h3 {
 						margin-top: 0;
 						margin-bottom: 20px;
-						font-family: 'Gt super display',sans-serif;
+						font-family: 'Gt super display', sans-serif;
 						color: #1e181f;
 						font-size: 22px;
 						line-height: 1;
@@ -72,11 +102,10 @@
 
 					p {
 						margin-bottom: 0;
-						font-family: 'Gt america standard',sans-serif;
-						color: rgba(0,0,0,.6);
+						color: rgba(0, 0, 0, .6);
 						font-size: 18px;
 						line-height: 28px;
-						font-weight: 400;
+						
 					}
 				}
 			}
@@ -89,14 +118,10 @@
 
 			button {
 				color: #fff;
-				font-size: 20px;
-				line-height: 28.5px;
 				padding: 16px 32px;
-				font-weight: 400;
 				text-decoration: none;
 				white-space: nowrap;
 				transition: 350ms;
-				font-family: 'Gt america standard', sans-serif;
 				align-items: center;
 				border-radius: 4px;
 				border: none;
