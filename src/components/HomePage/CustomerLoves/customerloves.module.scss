@@ -1,0 +1,47 @@
+.sectionContainer {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    
+    .innerContainer {
+        width: 100%;
+        max-width: 75rem;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 0.9375rem;
+        padding-left: 0.9375rem;
+
+        .titleContainer {
+
+            h2 {
+                max-width: 40rem;
+                margin-right: auto;
+                margin-bottom: 0;
+                margin-left: auto;
+                font-family: 'Gt super display',sans-serif;
+                color: #22252d;
+                font-size: 42px;
+                line-height: 53px;
+                font-weight: 700;
+                text-align: center;
+            }
+
+            p {
+                padding-left: 25px;
+                background-image: url(https://uploads-ssl.webflow.com/622a6a939ed44d43f1c4f5c3/622a6a939ed44da4fdc4f629_yellow-star.svg);
+                background-position: 0 50%;
+                background-size: 18px 18px;
+                background-repeat: no-repeat;
+                color: rgba(0, 0, 0, 0.6);
+                font-size: 1.25rem;
+                margin: 0 auto;
+                width: 200px;
+            }
+        }
+
+        .googleTestimonials {
+
+        }
+    }
+}

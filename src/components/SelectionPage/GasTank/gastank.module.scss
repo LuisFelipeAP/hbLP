@@ -1,0 +1,157 @@
+.sectionContainer {
+    padding-top: 4rem;
+    padding-bottom: 5.5rem;
+    background-color: #f8f8f8;
+
+    .innerContainer {
+        width: 100%;
+        max-width: 75rem;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 0.9375rem;
+        padding-left: 0.9375rem;
+
+        .headline {
+            margin-bottom: 1.25rem;
+
+            h2 {
+                max-width: 40rem;
+                margin-right: auto;
+                margin-bottom: 0;
+                margin-left: auto;
+                font-family: 'Gt super display', sans-serif;
+                color: #22252d;
+                font-size: 2.625rem;
+                line-height: 3.3125rem;
+                font-weight: 700;
+                text-align: center;
+            }
+
+            p {
+                max-width: 37.5rem;
+                font-family: 'Gt america standard', sans-serif;
+                color: rgba(0, 0, 0, 0.6);
+                font-size: 1.25rem;
+                line-height: 1.78125rem;
+                font-weight: 400;
+                text-align: center;
+                margin: 0 auto 0.625rem;
+            }
+        }
+
+        .pricingPlans {
+            display: grid;
+            margin-right: auto;
+            margin-left: auto;
+            justify-content: center;
+            grid-auto-columns: 1fr;
+            grid-column-gap: 2rem;
+            grid-template-rows: auto;
+            grid-row-gap: 1rem;
+            margin-top: 0;
+            grid-auto-flow: row;
+            grid-template-columns: minmax(0px, 1fr) minmax(0px, 1fr) repeat(auto-fit, minmax(0px, 1fr));
+
+            .pricingPlan {
+                display: flex;
+                padding: 1rem;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                border-radius: 15px;
+                background-color: #fff;
+                box-shadow: 1px 1px 14px 0 rgb(0 0 0 / 10%);
+                transition: 0.2s;
+
+                &:hover {
+                    transform: scale(.93);
+                }
+
+                .pricingContainer {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-decoration: none;
+
+                    h3 {
+                        max-width: 100%;
+                        margin-top: 0;
+                        margin-bottom: 0.9375rem;
+                        color: #0627f9;
+                        text-align: center;
+                        font-weight: 400;
+                    }
+
+                    p {
+                        color: #88847e;
+                        margin-top: 0;
+                        margin-bottom: 0.25rem;
+                        font-family: 'Gt america standard', sans-serif;
+                        font-size: 1rem;
+                        line-height: 1.78125rem;
+                        font-weight: 400;
+                    }
+
+                    span {
+                        margin-bottom: 2rem;
+                        font-family: 'Gt super display', sans-serif;
+                        color: #000;
+                        font-size: 3.25rem;
+                        line-height: 3.25rem;
+                        font-weight: 700;
+                    }
+
+                    button {
+                        border: none;
+                        width: 100%;
+                        padding-top: 16px;
+                        padding-bottom: 16px;
+                        border-radius: 4px;
+                        background-color: #0627f9;
+                        font-family: 'Gt america standard',sans-serif;
+                        color: #fff;
+                        font-size: 20px;
+                        line-height: 1;
+                        font-weight: 400;
+                        text-align: center;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        .pricesInclude {
+            display: flex;
+            max-width: 52.5rem;
+            margin: 2.5rem auto 1.25rem;
+            justify-content: space-between;
+            color: #22252d;
+            font-size: 1.125rem;
+
+            span {
+                display: flex;
+                align-items: center;
+
+            }
+
+            ul {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                flex: 1;
+                list-style-type: none;
+
+                li {
+                    display: flex;
+                    padding-left: 1.4375rem;
+                    flex-direction: row;
+                    background-image: url(https://uploads-ssl.webflow.com/622a6a939ed44d43f1c4f5c3/622a6a939ed44d3653c4f625_green-check.svg);
+                    background-position: 0 center;
+                    background-size: 17px;
+                    background-repeat: no-repeat;
+                }
+            }
+        }
+    }
+}

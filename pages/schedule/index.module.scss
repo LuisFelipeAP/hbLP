@@ -1,0 +1,43 @@
+.sectionContainer {
+    padding-top: 4rem;
+    padding-bottom: 5.5rem;
+    
+    .innerContainer {
+        width: 100%;
+        max-width: 75rem;
+        padding-left: 0.9375rem;
+        padding-right: 0.9375rem;
+        margin: 0 auto;
+
+        h1 {
+            text-align: center;
+            margin-top: 1.25rem;
+            margin-bottom: 1.875rem;
+            font-family: 'Gt super display', sans-serif;
+            color: #22252d;
+            font-size: 3.875rem;
+            line-height: 3.75rem;
+            font-weight: 700;
+        }
+
+        .pageContent {
+            margin-top: 60px;
+            padding-right: 15%;
+            padding-left: 15%;
+
+            p {
+                font-family: 'Gt america standard', sans-serif;
+                color: rgba(0, 0, 0, .6);
+                font-size: 1.25rem;
+                line-height: 1.78125rem;
+                font-weight: 400;
+                margin-top: 0;
+                margin-bottom: 0.625rem;
+
+                a {
+                    color: #0627f9;
+                }
+            }
+        }
+    }
+}

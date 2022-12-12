@@ -1,0 +1,48 @@
+.sectionContainer {
+    padding-top: 4rem;
+    padding-bottom: 5.5rem;
+    
+    .innerContainer {
+        background-color: rgba(240, 177, 15, 0.07);
+        max-width: 50rem;
+        margin: 3.75rem auto 6.25rem;
+        padding: 5.5rem 6.5rem;
+        border-radius: 30px;
+        text-align: center;
+
+        h2 {
+            margin-bottom: 2rem;
+            font-family: 'Gt super text', sans-serif;
+            color: #22252d;
+            font-size: 2.625rem;
+            line-height: 3.3125rem;
+            font-weight: 700;
+        }
+
+        a {
+            
+            button {
+                transition: 350ms;
+                color: #fff;
+                line-height: 1.78125rem;
+                font-weight: 400;
+                text-decoration: none;
+                align-items: center;
+                border-radius: 4px;
+                padding: 1rem 2rem;
+                background-color: rgba(6, 39, 249, 0.9);
+                border: none;
+                font-family: 'Gt america standard', sans-serif;
+                font-size: 1.25rem;
+                text-align: center;
+                white-space: nowrap;
+                cursor: pointer;
+
+                &:hover {
+                    transform: scale(.93);
+                    background-color: #0627f9;
+                }
+            }
+        }
+    }
+}

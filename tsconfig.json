@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/assets/SvgLogo.jsx", "src/components/Header", "src/assets/SvgLogo.jsx", "pages/schedule/index.module.scss"],
   "exclude": ["node_modules"]
 }

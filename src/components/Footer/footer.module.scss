@@ -1,0 +1,91 @@
+.footer {
+    padding: 6.25rem 0 2.5rem;
+    background-color: #1e181f;
+
+    .innerContainer {
+        width: 100%;
+        max-width: 75rem;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 0.9375rem;
+        padding-left: 0.9375rem;
+
+        .footerTop {
+            display: flex;
+            justify-content: space-between;
+            color: #a2a2a2;
+
+            .footerTopLeft {
+
+                img {
+                    border: 0;
+                    width: 166px;
+                    max-width: 100%;
+                    vertical-align: middle;
+                    display: inline-block;
+                    margin-bottom: 0.875rem;
+                }
+
+                p {
+                    margin-top: 0;
+                    margin-bottom: 0.625rem;
+                    font-family: 'Gt america standard',sans-serif;
+                    font-size: 1.25rem;
+                    line-height: 1.78125rem;
+                    font-weight: 400;
+                    color: #a2a2a2;
+                }
+            }
+
+            .footerTopRight {
+
+                a {
+                    display: inline-block;
+                    margin-bottom: 2.375rem;
+                    padding-left: 2.0625rem;
+                    background-image: url(https://uploads-ssl.webflow.com/622a6a939ed44d43f1c4f5c3/622a6a939ed44d0108c4f62a_phone-icon.svg);
+                    background-position: 0 50%;
+                    background-size: 0.9375rem;
+                    background-repeat: no-repeat;
+                    font-family: 'Gt america standard',sans-serif;
+                    color: #a2a2a2;
+                    font-size: 1.125rem;
+                    line-height: 1.65625rem;
+                    font-weight: 400;
+                    text-decoration: none;
+                }
+
+                p {
+                    margin-top: 0;
+                    margin-bottom: 0.625rem;
+                    max-width: 400px;
+                    padding-left: 2.125rem;
+                    background-image: url(https://uploads-ssl.webflow.com/622a6a939ed44d43f1c4f5c3/622a6a939ed44d7a89c4f627_location-icon.svg);
+                    background-position: 0 5px;
+                    background-size: 0.875rem;
+                    background-repeat: no-repeat;
+                    font-family: 'Gt america standard', sans-serif;
+                    color: #a2a2a2;
+                    font-size: 1.125rem;
+                    line-height: 1.65625rem;
+                    font-weight: 400;
+                }
+            }
+        }
+
+        .footerBottom {
+            margin-top: 6.875rem;
+
+            p {
+                margin-top: 0;
+                margin-bottom: 0.625rem;
+                font-family: 'Gt america standard', sans-serif;
+                color: #a2a2a2;
+                font-size: 0.875rem;
+                line-height: 1.65625rem;
+                font-weight: 400;
+                text-align: center;
+            }
+        }
+    }
+}

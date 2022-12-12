@@ -1,0 +1,299 @@
+.sectionContainer {
+
+    .innerContainer {
+        width: 100%;
+        max-width: 75rem;
+        padding: 0 0.9375rem;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+
+        .heroContent {
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            height: 100%;
+            margin-right: 5%;
+            padding: 3.75rem 0;
+
+            h1 {
+                font-family: 'Gt super display', sans-serif;
+                margin-top: 1.25rem;
+                margin-bottom: 1.875rem;
+                color: #22252d;
+                font-size: 3.875rem;
+                line-height: 3.75rem;
+                font-weight: 700;
+
+            }
+
+            p {
+                font-family: 'Gt america standard', sans-serif;
+                color: rgba(34, 37, 45, 0.7);
+                font-size: 1.125rem;
+                line-height: 1.65625rem;
+                font-weight: 400;
+                margin: 0 0 0.625rem;
+            }
+
+            .heroCTA {
+                white-space: nowrap;
+                margin: 1.25rem 0 2.5rem;
+
+                .primary {
+                    padding: 1rem 2rem;
+                    margin-right: 0.75rem;
+                    color: white;
+                    background-color: rgba(6, 39, 249, 0.9);
+                    font-size: 1.25rem;
+                    font-weight: 400;
+                    font-family: 'Gt america standard', sans-serif;
+                    border-radius: 4px;
+                    text-decoration: none;
+                    white-space: nowrap;
+                    line-height: 1.78125rem;
+                    transition: 350ms;
+
+                    &:hover {
+                        transform: scale(.93);
+                        background-color: #0627f9;
+                    }
+                }
+
+                .secondary {
+                    display: inline-block;
+                    padding: 1rem 2rem;
+                    border-radius: 4px;
+                    box-shadow: 0 2px 14px 0 rgb(34 37 45 / 25%);
+                    transition: 350ms;
+                    font-family: 'Gt america standard', sans-serif;
+                    color: rgba(34, 37, 45, 0.9);
+                    font-size: 1.25rem;
+                    font-weight: 400;
+                    text-decoration: none;
+                    white-space: nowrap;
+                    line-height: 1.78125rem;
+
+                    &:hover {
+                        transform: scale(.93);
+                        color: #22252d;
+                    }
+                }
+            }
+
+            .googleReviews {
+                max-width: 100%;
+                display: flex;
+                align-items: center;
+                font-family: 'Gt america standard', sans-serif;
+                color: #22252d;
+                font-size: 1.125rem;
+                line-height: 1.71875rem;
+                font-weight: 400;
+                text-decoration: none;
+                white-space: nowrap;
+
+                .googleStars {
+                    display: flex;
+                    align-items: center;
+                    margin-right: 0.5rem;
+
+                    .googleStar {
+                        margin-right: 3px;
+                        width: 17px;
+                    }
+                }
+
+                .googleReview {
+                    color: #22252d;
+                    font-family: 'Gt america standard', sans-serif;
+                    font-size: 1.125rem;
+                    line-height: 1.71875rem;
+                    font-weight: 400;
+                    white-space: nowrap;
+                }
+
+                .googleLogo {
+                    margin: 5px 0 0 8px;
+                    width: 60px;
+                }
+            }
+        }
+
+        .heroImage {
+            position: absolute;
+            top: 6.6875rem;
+            right: 0;
+            height: 33.125rem;
+            max-height: 100%;
+            max-width: 55%;
+
+            img {
+                height: 100%;
+                object-fit: cover;
+                max-width: 100%;
+                max-height: 100%;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .sectionContainer {
+
+        .innerContainer {
+            flex-direction: column-reverse;
+            padding: 0 1.25rem;
+
+            .heroContent {
+                width: 100%;
+                padding-top: 0;
+                padding-bottom: 1.25rem;
+
+                h1 {
+                    margin-bottom: 1.25rem;
+                    font-size: 2.1875rem;
+                    line-height: 2.625rem;
+                }
+
+                .heroCTA {
+                    margin: 0;
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+
+                    .primary {
+                        width: 100%;
+                        margin-bottom: 0.5rem;
+                    }
+
+                    .secondary {
+                        width: 100%;
+                        margin-top: 0.3125rem;
+                    }
+                }
+
+                .googleReviews {
+                    flex-direction: column;
+                    margin-top: 1.25rem;
+
+                    .googleStars {
+                        margin-bottom: 0.625rem;
+                    }
+                }
+            }
+
+            .heroImage {
+                position: static;
+                max-width: none;
+                height: auto;
+                margin-top: 0;
+                margin-right: -1.25rem;
+                margin-left: -1.25rem;
+                border-radius: 0;
+
+                img {
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .sectionContainer {
+
+        .innerContainer {
+            flex-direction: column-reverse;
+            padding: 0 1.25rem;
+            height: auto;
+
+            .heroContent {
+                width: 100%;
+                padding-top: 0;
+                padding-bottom: 1.25rem;
+
+                h1 {
+                    margin-bottom: 1.25rem;
+                    font-size: 2.1875rem;
+                    line-height: 2.625rem;
+                }
+
+                .heroCTA {
+                    margin: 0;
+                    text-align: center;
+
+                    .primary {
+                        padding: 1rem 1.4375rem;
+                    }
+
+                    .secondary {
+                        padding: 1rem 1.4375rem;
+                    }
+                }
+
+                .googleReviews {
+                    margin-top: 1.25rem;
+                    flex-direction: column;
+                }
+            }
+
+            .heroImage {
+                position: static;
+                max-width: none;
+                margin: 0 -1.25rem;
+
+                img {
+                    max-width: 100%;
+                    max-height: 100%;
+                    object-fit: cover;
+                    object-position: 100% 0%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .sectionContainer {
+        padding: 0 4.375rem;
+
+        .innerContainer {
+            position: relative;
+            flex-direction: column-reverse;
+            padding: 0;
+
+            .heroContent {
+                width: 43vw;
+                margin-right: 0;
+
+                h1 {
+                    margin-bottom: 1.25rem;
+                    font-size: 3.25rem;
+                    line-height: 3.5rem;
+                }
+
+            }
+
+            .heroImage {
+                max-height: none;
+                max-width: none;
+                top: 0;
+                right: 0;
+                width: 16.375rem;
+                height: 17.0625rem;
+                overflow: hidden;
+                margin-top: 4.0625rem;
+                margin-left: 4.375rem;
+                border-radius: 20px;
+
+                img {
+                    height: 100%;
+                    max-width: 120%;
+                    object-fit: cover;
+                    object-position: 100% 0%;
+                }
+            }
+        }
+    }
+}

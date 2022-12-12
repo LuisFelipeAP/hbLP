@@ -1,0 +1,98 @@
+.sectionContainer {
+    padding-top: 64px;
+    padding-bottom: 88px;
+    background-color: #f8f8f8;
+
+    .innerContainer {
+        width: 100%;
+        max-width: 1200px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 15px;
+        padding-left: 15px;
+        font-family: 'Gt america standard', sans-serif;
+        color: rgba(0, 0, 0, .6);
+        font-size: 20px;
+        line-height: 28.5px;
+        font-weight: 400;
+
+        h2 {
+            max-width: 640px;
+            margin-right: auto;
+            margin-bottom: 0;
+            margin-left: auto;
+            font-family: 'Gt super display', sans-serif;
+            color: #22252d;
+            font-size: 42px;
+            line-height: 53px;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        p {
+            max-width: 600px;
+            margin-bottom: 20px;
+            margin-right: auto;
+            margin-left: auto;
+            text-align: center;
+            font-family: 'Gt america standard', sans-serif;
+            color: rgba(0, 0, 0, .6);
+            font-size: 20px;
+            line-height: 28.5px;
+            font-weight: 400;
+        }
+
+        .rebates {
+            display: grid;
+            max-width: 800px;
+            margin-top: 60px;
+            margin-right: auto;
+            margin-left: auto;
+            grid-auto-columns: 1fr;
+            grid-column-gap: 16px;
+            grid-row-gap: 16px;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto;
+
+            .rebate {
+                padding: 30px;
+                border: 1px solid rgba(0, 0, 0, .17);
+                border-radius: 20px;
+                background-color: #fff;
+
+                h3 {
+                    margin-top: 20px;
+                    margin-bottom: 10px;
+                    font-family: 'Gt super display', sans-serif;
+                    color: #22252d;
+                    font-size: 24px;
+                    line-height: 30px;
+                    font-weight: 700;
+                }
+
+                p {
+                    margin-top: 0;
+                    margin-bottom: 10px;
+                    font-family: 'Gt america standard', sans-serif;
+                    color: rgba(0, 0, 0, .6);
+                    font-size: 20px;
+                    line-height: 28.5px;
+                    font-weight: 400;
+                }
+
+                ul {
+                    margin-top: 0;
+                    margin-bottom: 10px;
+                    padding-left: 40px;
+                    font-family: 'Gt america standard', sans-serif;
+                    color: rgba(0, 0, 0, .6);
+                    font-size: 20px;
+                    line-height: 28.5px;
+                    font-weight: 400;
+
+                    li {}
+                }
+            }
+        }
+    }
+}

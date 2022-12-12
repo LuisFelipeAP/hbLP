@@ -1,0 +1,114 @@
+.sectionContainer {
+	padding: 6.25rem 0;
+
+	.innerContainer {
+		width: 100%;
+		max-width: 75rem;
+		margin-right: auto;
+		margin-left: auto;
+		padding-right: 0.9375rem;
+		padding-left: 0.9375rem;
+
+		.headline {
+			max-width: 40rem;
+			font-family: 'Gt super display', sans-serif;
+			text-align: center;
+			margin-right: auto;
+			margin-left: auto;
+
+			h2 {
+				margin-bottom: 0;
+				color: #22252d;
+				font-size: 2.625rem;
+				line-height: 3.3125rem;
+				font-weight: 700;
+			}
+
+			p {
+				text-align: center;
+				max-width: 26.25rem;
+				margin: 0 auto 0.625rem;
+				color: rgba(0, 0, 0, 0.6);
+				font-weight: 400;
+				line-height: 1.78125rem;
+				font-size: 1.25rem;
+			}
+		}
+
+		.infoCards {
+			max-width: 600px;
+			margin-top: 50px;
+			margin-right: auto;
+			margin-left: auto;
+			padding-left: 50px;			
+
+			.infoCard {
+				display: flex;
+				margin-bottom: 75px;
+				transition: .2s;
+
+				&:hover {
+					transform: scale(.93);
+				}
+
+				img {
+					display: flex;
+					padding-right: 65px;
+					max-width: 100%;
+					vertical-align: middle;
+				}
+
+				.cardContent {
+
+					h3 {
+						margin-top: 0;
+						margin-bottom: 20px;
+						font-family: 'Gt super display',sans-serif;
+						color: #1e181f;
+						font-size: 22px;
+						line-height: 1;
+						font-weight: 700;
+					}
+
+					p {
+						margin-bottom: 0;
+						font-family: 'Gt america standard',sans-serif;
+						color: rgba(0,0,0,.6);
+						font-size: 18px;
+						line-height: 28px;
+						font-weight: 400;
+					}
+				}
+			}
+		}
+
+		.cta {
+			display: flex;
+			justify-content: center;
+			transition: 350ms;
+
+			button {
+				color: #fff;
+				font-size: 20px;
+				line-height: 28.5px;
+				padding: 16px 32px;
+				font-weight: 400;
+				text-decoration: none;
+				white-space: nowrap;
+				transition: 350ms;
+				font-family: 'Gt america standard', sans-serif;
+				align-items: center;
+				border-radius: 4px;
+				border: none;
+				background-color: rgba(6, 39, 249, .9);
+				justify-content: center;
+				cursor: pointer;
+
+				&:hover {
+					transform: scale(.93);
+					background-color: #0627f9;
+				}
+			}
+		}
+	}
+}
