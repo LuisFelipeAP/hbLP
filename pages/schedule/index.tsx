@@ -16,6 +16,8 @@ export default function Home() {
 
                 <title>Schedule Your Water Heater Replacement</title>
 
+                <link href="https://uploads-ssl.webflow.com/622a6a939ed44d43f1c4f5c3/62acbe05d658cb6e04e65baf_favicon_32.png" rel="shortcut icon" type="image/x-icon" />
+
                 <meta content="Schedule your water heater installation online to book seamless service with our team of licensed installation experts." name="description"></meta>
                 <meta content="Schedule Your Water Heater Replacement" property="og:title"></meta>
                 <meta content="Schedule your water heater installation online to book seamless service with our team of licensed installation experts." property="og:description"></meta>

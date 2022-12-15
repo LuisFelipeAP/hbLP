@@ -2,9 +2,9 @@ import React from 'react'
 import Link from 'next/link';
 import { PopupButton } from '@typeform/embed-react'
 
-import styles from './tanklessgas.module.scss';
+import styles from './rebatestanklessgas.module.scss';
 
-export function TanklessGas() {
+export function RebatesTanklessGas() {
     return (
         <section id='tankless' className={styles.sectionContainer}>
             <main className={styles.innerContainer}>
@@ -79,7 +79,6 @@ export function TanklessGas() {
                 <div className={styles.footerNote}>
                     <p>
                         *Prices reflect savings from $800 - $1,000 cash rebates and $300 federal tax credits.&nbsp;
-                        <Link href="/rebates">Learn more</Link>
                     </p>
                 </div>
             </main>

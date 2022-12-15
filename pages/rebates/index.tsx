@@ -4,7 +4,7 @@ import { Header } from '../../src/components/Header/Header'
 import { Footer } from '../../src/components/Footer/Footer'
 import { Hero } from '../../src/components/RebatesPage/Hero/Hero'
 import { RebatesAvailable } from '../../src/components/RebatesPage/RebatesAvailable/RebatesAvailable'
-import { TanklessGas } from '../../src/components/SelectionPage/TanklessGas/TanklessGas'
+import { RebatesTanklessGas } from '../../src/components/RebatesPage/RebatesTankslessGas/RebatesTanklessGas'
 
 export default function Home() {
     return (
@@ -13,6 +13,8 @@ export default function Home() {
                 <meta content="width=device-width, initial-scale=1" name="viewport" />
 
                 <title>HomeBreeze Water Heaters</title>
+
+                <link href="https://uploads-ssl.webflow.com/622a6a939ed44d43f1c4f5c3/62acbe05d658cb6e04e65baf_favicon_32.png" rel="shortcut icon" type="image/x-icon" />
 
                 <meta content="See all-inclusive prices for gas water heaters, electric water heaters, and tankless water heaters. These prices include your new unit, delivery, installation, all necessary parts, and disposal of your old unit." name="description" />
                 <meta content="HomeBreeze Water Heaters" property="og:title" />
@@ -29,7 +31,7 @@ export default function Home() {
 
             <Hero />
             <RebatesAvailable />
-            <TanklessGas />
+            <RebatesTanklessGas />
 
             <Footer />
         </div>

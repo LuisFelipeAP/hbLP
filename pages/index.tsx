@@ -19,6 +19,8 @@ export default function Home() {
 
 				<title>HomeBreeze - Same Day Water Heater Replacement</title>
 
+				<link href="https://uploads-ssl.webflow.com/622a6a939ed44d43f1c4f5c3/62acbe05d658cb6e04e65baf_favicon_32.png" rel="shortcut icon" type="image/x-icon" />
+
 				<meta content="HomeBreeze - Same Day Water Heater Replacement" property="og:title" />
 				<meta content="Book online. No waiting for call-backs - just upfront, fixed prices that save you $500+." property="og:description" />
 				<meta content="https://uploads-ssl.webflow.com/61e0d485666ba00bd203bcb5/61ea850e20f364bf002dc839_hero-image.jpg" property="og:image" />
