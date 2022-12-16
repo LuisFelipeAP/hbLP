@@ -1,11 +1,13 @@
 @font-face {
   font-family: 'Gt america standard';
   src: url('../fonts/GT-Super-Text-Bold.ttf') format('truetype');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Gt super display';
   src: url('../fonts/GT-Super-Display-Bold.ttf') format('truetype');
+  font-display: swap;
 }
 
 html {
