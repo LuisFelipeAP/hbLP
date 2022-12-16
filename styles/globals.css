@@ -26,6 +26,11 @@ body {
   font-size: inherit;
   line-height: inherit;
   font-weight: inherit;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+  font-family: 'Gt super display', sans-serif;
 }
 
 a {

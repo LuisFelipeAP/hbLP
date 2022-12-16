@@ -1,13 +1,20 @@
 import Head from 'next/head'
 import Link from 'next/link';
+import Aos from 'aos';
 
 import styles from './index.module.scss';
+import 'aos/dist/aos.css';
 
 import { Header } from '../../src/components/Header/Header'
 import { Footer } from '../../src/components/Footer/Footer'
 import { InlineWidget } from 'react-calendly';
+import { useEffect } from 'react';
 
 export default function Home() {
+    useEffect(() => {
+        Aos.init({ duration: 1000 });
+    }, [])
+
     const calendlyUrl = "https://calendly.com/homebreezestagingcalendar/booking-flow-tank-water-heater-installation-dev"
     return (
         <div className="container">
@@ -15,8 +22,6 @@ export default function Home() {
                 <meta content="width=device-width, initial-scale=1" name="viewport" />
 
                 <title>Schedule Your Water Heater Replacement</title>
-
-                <link href="https://uploads-ssl.webflow.com/622a6a939ed44d43f1c4f5c3/62acbe05d658cb6e04e65baf_favicon_32.png" rel="shortcut icon" type="image/x-icon" />
 
                 <meta content="Schedule your water heater installation online to book seamless service with our team of licensed installation experts." name="description"></meta>
                 <meta content="Schedule Your Water Heater Replacement" property="og:title"></meta>
@@ -31,7 +36,7 @@ export default function Home() {
 
             <Header />
 
-            <section className={styles.sectionContainer}>
+            <section data-aos="fade" className={styles.sectionContainer}>
                 <main className={styles.innerContainer}>
                     <h1>Schedule now</h1>
                     <div className={styles.pageContent}>
@@ -45,6 +50,7 @@ export default function Home() {
             </section>
 
             <InlineWidget
+                data-aos="fade"
                 url={calendlyUrl}
                 styles={{ position: "relative", height: "650px" }}
                 pageSettings={{ hideGdprBanner: true }}

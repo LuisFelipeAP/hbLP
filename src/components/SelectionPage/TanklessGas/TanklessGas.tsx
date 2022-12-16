@@ -1,12 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Link from 'next/link';
 import { PopupButton } from '@typeform/embed-react'
+import Aos from 'aos';
 
 import styles from './tanklessgas.module.scss';
+import 'aos/dist/aos.css';
 
 export function TanklessGas() {
+    useEffect(() => {
+        Aos.init({ duration: 1000 });
+    }, [])
+
     return (
-        <section id='tankless' className={styles.sectionContainer}>
+        <section data-aos="fade" id='tankless' className={styles.sectionContainer}>
             <main className={styles.innerContainer}>
                 <div className={styles.headline}>
                     <h2>Tankless Gas Water Heaters</h2>

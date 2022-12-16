@@ -1,11 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { PopupButton } from '@typeform/embed-react'
+import Aos from 'aos';
 
 import styles from './electrictank.module.scss';
+import 'aos/dist/aos.css';
 
 export function ElectricTank() {
+    useEffect(() => {
+        Aos.init({ duration: 1000 });
+    }, [])
+
     return (
-        <section id='electric-tanks' className={styles.sectionContainer}>
+        <section data-aos="fade" id='electric-tanks' className={styles.sectionContainer}>
             <main className={styles.innerContainer}>
                 <div className={styles.headline}>
                     <h2>Electric Tank Water Heaters</h2>

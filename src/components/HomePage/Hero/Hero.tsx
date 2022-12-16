@@ -1,16 +1,22 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
+import Aos from 'aos';
 
 import styles from './hero.module.scss';
+import 'aos/dist/aos.css';
 
 import heroImage from '../../../assets/heroImage.jpeg';
 import googleLogo from '../../../assets/googleLogo.svg';
 import googleReviewStar from '../../../assets/googleReviewStar.svg';
 
 export function HomeHero() {
+    useEffect(() => {
+        Aos.init({ duration: 1000 });
+    }, [])
+
     return (
-        <section className={styles.sectionContainer}>
+        <section data-aos="fade" className={styles.sectionContainer}>
             <main className={styles.innerContainer}>
                 <article className={styles.heroContent}>
                     <h1>Replace your water heater quickly.</h1>

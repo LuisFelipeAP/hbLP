@@ -31,14 +31,12 @@
 
         h2 {
             margin-bottom: 2rem;
-            font-family: 'Gt super text', sans-serif;
             color: #22252d;
             font-size: 2.625rem;
             line-height: 3.3125rem;
             font-weight: 700;
 
             @media screen and (max-width: 767px) {
-                font-family: 'Gt america standard', sans-serif;
                 font-size: 18px;
                 line-height: 26px;
                 font-weight: 400;

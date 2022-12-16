@@ -1,11 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Link from 'next/link';
+import Aos from 'aos';
 
 import styles from './prices.module.scss';
+import 'aos/dist/aos.css';
 
 export function Prices() {
+    useEffect(() => {
+        Aos.init({ duration: 1000 });
+    }, [])
+
     return (
-        <section className={styles.sectionContainer}>
+        <section data-aos="fade" className={styles.sectionContainer}>
             <main className={styles.innerContainer}>
                 <div className={styles.headline}>
                     <h2>All-Inclusive Prices</h2>

@@ -14,8 +14,6 @@ export default function Home() {
 
                 <title>HomeBreeze Water Heaters</title>
 
-                <link href="https://uploads-ssl.webflow.com/622a6a939ed44d43f1c4f5c3/62acbe05d658cb6e04e65baf_favicon_32.png" rel="shortcut icon" type="image/x-icon" />
-
                 <meta content="See all-inclusive prices for gas water heaters, electric water heaters, and tankless water heaters. These prices include your new unit, delivery, installation, all necessary parts, and disposal of your old unit." name="description" />
                 <meta content="HomeBreeze Water Heaters" property="og:title" />
                 <meta content="See all-inclusive prices for gas water heaters, electric water heaters, and tankless water heaters. These prices include your new unit, delivery, installation, all necessary parts, and disposal of your old unit." property="og:description" />
