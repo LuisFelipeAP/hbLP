@@ -2,19 +2,22 @@ import Head from 'next/head'
 
 import { Header } from '../../src/components/Header/Header'
 import { Footer } from '../../src/components/Footer/Footer'
-import { SelectionHero } from '../../src/components/SelectionPage/Hero/Hero'
+import { SelectionHero } from '../../src/components/SelectionPage/SelectionHero/SelectionHero'
 import { GasTank } from '../../src/components/SelectionPage/GasTank/GasTank'
 import { ElectricTank } from '../../src/components/SelectionPage/ElectricTank/ElectricTank'
 import { TanklessGas } from '../../src/components/SelectionPage/TanklessGas/TanklessGas'
 import { WeHelp } from '../../src/components/SelectionPage/WeHelp/WeHelp'
 
 export default function Home() {
-	return (
-		<div className="container">
-			<Head>
-				<meta content="width=device-width, initial-scale=1" name="viewport" />
+  return (
+    <div className="container">
+      <Head>
+        <link rel="preload" href="../../fonts/GT-Super-Text-Bold.ttf" as="font" type="font/ttf" crossOrigin="true" />
+        <link rel="preload" href="../../fonts/GT-Super-Display-Bold.ttf" as="font" type="font/ttf" crossOrigin="true" />
 
-				<title>HomeBreeze Water Heaters</title>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+        <title>HomeBreeze Water Heaters</title>
 
         <meta content="See all-inclusive prices for gas water heaters, electric water heaters, and tankless water heaters. These prices include your new unit, delivery, installation, all necessary parts, and disposal of your old unit." name="description" />
         <meta content="HomeBreeze Water Heaters" property="og:title" />
@@ -25,9 +28,9 @@ export default function Home() {
         <meta content="https://uploads-ssl.webflow.com/61e0d485666ba00bd203bcb5/61ea850e20f364bf002dc839_hero-image.jpg" property="twitter:image" />
         <meta property="og:type" content="website" />
         <meta content="summary_large_image" name="twitter:card" />
-			</Head>
+      </Head>
 
-			<Header />
+      <Header />
 
       <SelectionHero />
       <GasTank />
@@ -36,6 +39,6 @@ export default function Home() {
       <WeHelp />
 
       <Footer />
-		</div>
-	)
+    </div>
+  )
 }

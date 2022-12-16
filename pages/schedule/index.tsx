@@ -1,24 +1,20 @@
 import Head from 'next/head'
 import Link from 'next/link';
-import Aos from 'aos';
+import { InlineWidget } from 'react-calendly';
 
 import styles from './index.module.scss';
-import 'aos/dist/aos.css';
 
 import { Header } from '../../src/components/Header/Header'
 import { Footer } from '../../src/components/Footer/Footer'
-import { InlineWidget } from 'react-calendly';
-import { useEffect } from 'react';
 
 export default function Home() {
-    useEffect(() => {
-        Aos.init({ duration: 1000 });
-    }, [])
-
     const calendlyUrl = "https://calendly.com/homebreezestagingcalendar/booking-flow-tank-water-heater-installation-dev"
     return (
         <div className="container">
             <Head>
+                <link rel="preload" href="../../fonts/GT-Super-Text-Bold.ttf" as="font" type="font/ttf" crossOrigin="true" />
+                <link rel="preload" href="../../fonts/GT-Super-Display-Bold.ttf" as="font" type="font/ttf" crossOrigin="true" />
+
                 <meta content="width=device-width, initial-scale=1" name="viewport" />
 
                 <title>Schedule Your Water Heater Replacement</title>
@@ -57,8 +53,6 @@ export default function Home() {
             />
 
             <Footer />
-
-
         </div>
     )
 }

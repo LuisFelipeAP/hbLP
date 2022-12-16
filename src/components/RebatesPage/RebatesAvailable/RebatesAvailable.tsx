@@ -1,14 +1,8 @@
-import React, { useEffect } from 'react'
-import Aos from 'aos';
+import React from 'react'
 
 import styles from './rebatesavailable.module.scss';
-import 'aos/dist/aos.css';
 
 export function RebatesAvailable() {
-    useEffect(() => {
-        Aos.init({ duration: 1000 });
-    }, [])
-
     return (
         <section data-aos="fade" className={styles.sectionContainer}>
             <div className={styles.innerContainer}>
