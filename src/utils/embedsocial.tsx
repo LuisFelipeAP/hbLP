@@ -13,11 +13,11 @@ export function EmbedSocial({ refId }: EmbedSocialProps) {
   }
 
   useEffect(() => {
-    loadScript("https://embedsocial.com/embedscript/ri.js");
+    loadScript("https://reviewsonmywebsite.com/js/v2/embed.js?id=8e7313fc946fd3d8c15c886f791a7ab8");
   } , []);
 
   return (
-    <div className="embedsocial-reviews" data-ref={refId} />
+    <div data-romw-token={refId} />
   );
 }
 

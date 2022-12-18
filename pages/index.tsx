@@ -1,9 +1,11 @@
+"use client";
+
 import Head from 'next/head'
 
 import styles from '../styles/Home.module.css'
 
 import { Header } from '../src/components/Header/Header'
-import { HomeHero } from '../src/components/HomePage/Hero/Hero'
+import { HomeHero } from '../src/components/HomePage/HomeHero/HomeHero'
 import { Advantages } from '../src/components/HomePage/Advantages/Advantages'
 import { CustomerLoves } from '../src/components/HomePage/CustomerLoves/CustomerLoves'
 import { Prices } from '../src/components/HomePage/Prices/Prices'
