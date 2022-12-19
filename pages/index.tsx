@@ -17,9 +17,6 @@ export default function Home() {
 	return (
 		<div className={styles.container}>
 			<Head>
-				<link rel="preload" href="../fonts/GT-Super-Text-Bold.ttf" as="font" type="font/ttf" crossOrigin="true" />
-				<link rel="preload" href="../fonts/GT-Super-Display-Bold.ttf" as="font" type="font/ttf" crossOrigin="true" />
-
 				<meta content="width=device-width, initial-scale=1" name="viewport" />
 
 				<title>HomeBreeze - Same Day Water Heater Replacement</title>
