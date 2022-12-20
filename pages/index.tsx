@@ -21,11 +21,12 @@ export default function Home() {
 
 				<title>HomeBreeze - Same Day Water Heater Replacement</title>
 
+				<meta content="Book online. No waiting for call-backs - just upfront, fixed prices that save you $500+." property="og:description" />
 				<meta content="HomeBreeze - Same Day Water Heater Replacement" property="og:title" />
 				<meta content="Book online. No waiting for call-backs - just upfront, fixed prices that save you $500+." property="og:description" />
 				<meta content="https://uploads-ssl.webflow.com/61e0d485666ba00bd203bcb5/61ea850e20f364bf002dc839_hero-image.jpg" property="og:image" />
-				<meta content="HomeBreeze - Same Day Water Heater Replacement" property="twitter:title" />
 				<meta content="Book online. No waiting for call-backs - just upfront, fixed prices that save you $500+." property="twitter:description" />
+				<meta content="HomeBreeze - Same Day Water Heater Replacement" property="twitter:title" />
 				<meta content="https://uploads-ssl.webflow.com/61e0d485666ba00bd203bcb5/61ea850e20f364bf002dc839_hero-image.jpg" property="twitter:image" />
 			</Head>
 

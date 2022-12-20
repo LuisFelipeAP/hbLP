@@ -9,7 +9,7 @@ export function Header() {
   return (
     <header className={styles.mainContainer}>
       <div className={styles.innerContainer}>
-        <Link href="/">
+        <Link href="/" aria-label='Home Page Logo as Button'>
           <SvgLogo />
         </Link>
         <nav className={styles.infoContainer}>
