@@ -1,4 +1,4 @@
-import * as React from "react"
+import * as React from 'react'
 
 export function SvgLogo(props) {
   return (
@@ -17,7 +17,7 @@ export function SvgLogo(props) {
       <mask
         id="a"
         style={{
-          maskType: "alpha"
+          maskType: 'alpha',
         }}
         maskUnits="userSpaceOnUse"
         x={0}
