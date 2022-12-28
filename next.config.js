@@ -8,6 +8,8 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   pageExtensions: [
+    'page.js',
+    'page.ts',
     'page.tsx',
   ]
 }
